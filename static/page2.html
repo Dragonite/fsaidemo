@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Server Side Page 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .nav {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+        }
+        .current-page {
+            font-weight: bold;
+            color: #2c5282;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Server-Side Rendering Demo - Page 2</h1>
+        
+        <div class="nav">
+            <a href="index.html">Page 1</a> | 
+            <span class="current-page">Page 2</span>
+        </div>
+        
+        <div>
+            <h2>You Made It!</h2>
+            <ul>
+                <li>Did you notice the complete page refresh?</li>
+                <li>Every navigation requires a new HTML file from the server</li>
+                <li>This is classic server-side rendering</li>
+                <li>Try clicking back to Page 1 to see it again</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
